@@ -1,0 +1,18 @@
+body{
+    background-color:#BB0099;
+    color:RGB(25,100,210);
+    color: rgba(rgb(255, 255, 255), green, blue, alpha);
+}
+p{
+    color: aqua ;
+    font-size: 22px;
+}
+span{
+    color: brown;
+    font-size: 35px;
+}
+button{
+    background-color: rgb(51, 255, 0);
+    padding: 10px 20px 30px 40px;
+
+}
