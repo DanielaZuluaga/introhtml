@@ -1,10 +1,10 @@
 body{
-    background-color:#BB0099;
+    background-color:#ffffff;
     color:RGB(25,100,210);
     color: rgba(rgb(255, 255, 255), green, blue, alpha);
 }
 p{
-    color: aqua ;
+    color: rgb(0, 0, 0) ;
     font-size: 22px;
 }
 span{
@@ -15,4 +15,13 @@ button{
     background-color: rgb(51, 255, 0);
     padding: 10px 20px 30px 40px;
 
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+td{
+    border:1px solid grey;
+    padding:10px;
 }
