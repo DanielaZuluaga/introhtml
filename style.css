@@ -25,3 +25,58 @@ td{
     border:1px solid grey;
     padding:10px;
 }
+#contenedor1{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(152, 172, 152); 
+}
+#contenedor2{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(188, 188, 255);
+    width: 100px;
+}
+#contenedor3{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(252, 190, 149);
+    width: 100px;
+}
+#contenedor2:hover{
+    background-color: red;
+}
+#contenedor3:hover{
+    background-color: yellowgreen;
+}
+.control1:focus{
+    background-color: aqua;
+}
+.titulos{
+    font-family: 'Permanent Marker', cursive;
+}
+.imagen{
+    background-image: url("Gary bueno.jpg");
+    width: 600px;
+    height: 900px;
+    background-position: center top ;
+    background-size: cover contain;
+    background-repeat: no-repeat;
+
+}
+
+.container{
+    color: blueviolet;
+    font-size: 60px;
+    border: 5px double #000;
+    margin: 10px;
+    padding: 20px;
+}
+.gradiente{
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(205,61,105,1) 27%, rgba(197,210,62,1) 78%, rgba(0,212,255,1) 100%);
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    padding-top: 250px;
+    font-family: 'Permanent Marker', cursive;
+}
